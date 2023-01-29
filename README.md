@@ -1,2 +1,2 @@
 # Estudo-Html-CSS
- Estudo e Pratica
+ Estou aprendendo a fazer sites e aprendendo a gerenciar meus repositorios.
