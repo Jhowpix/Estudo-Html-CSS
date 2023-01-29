@@ -1,0 +1,6 @@
+"fa-sharp fa-solid fa-house"
+"fa-solid fa-palette"
+"fa-sharp fa-solid fa-code"
+"fa-sharp fa-solid fa-camera"
+"fa-solid fa-file-code"
+"fa-sharp fa-solid fa-phone"

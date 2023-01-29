@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 800px;
+  height: 800px;
+  background: rgb(65, 52, 63);
+}
+div{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+h1{
+  padding: 350px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: rgb(107, 238, 107);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-shadow: 0 0 10px rgb(166, 224, 166); 
+  letter-spacing: 5px;
+}
+h1 :hover {
+  color: rgb(166, 247, 166);
+  text-shadow: 0 0 20px rgb(166, 224, 166); 
+  
+}

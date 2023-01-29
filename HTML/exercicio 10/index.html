@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>exercicios de imagem</title>
+  
+</head>
+
+<body>
+
+  <!--por algum motivo talvez atualizacao do HTML 
+  este codigo abaixo nao responde -->
+  <h1>trabalhando com tamanhos de imagens</h1>
+
+  <picture>
+    <source media="(max-width: 755px)" srcset="img/m.JPG" type="image/JPG" >
+    <source media="(max-width: 1140px)" srcset="img/g.JPG" type="image/JPG">
+    <img src="img/g.JPG">
+  </picture>
+
+  <h1> produzir audio</h1>
+  <p>o navegador vai buscar o audio que ele conseguer ler o arquivo
+    conforme seguencia abaixo no codigo<br>
+    <ol>
+      <li>mp3</li>
+      <li>ogg</li>
+      <li>wav</li>
+
+    </ol>
+  
+  </p>
+
+  <audio>
+   <source src="midia/audiotest.mp3" type="audio/mpeg">
+   <source src="midia/audiotest.ogg" type="audio/ogg">
+   <source src="midia/audiotest.wav" type="audio/wav">
+   <!--evite wav este arquivo e muito pesado-->
+   <p>seu navegador e uma bosta!!!<a href="goggle/chrome.com" target="_blank"></a></p>
+  </audio>
+  
+</body>
+</html>

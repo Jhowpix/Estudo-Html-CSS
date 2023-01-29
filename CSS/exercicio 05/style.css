@@ -1,0 +1,34 @@
+body{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*justify-items e aling-items vai permitir
+alinhar os objetos dentro de uma celula grid*/
+
+/* justify-self e aling-self vai nos permitir alinhar o item em si*/
+
+.container {
+ background-color: black;
+ width: 100vw;
+ height: 100vh;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+ gap: 5px;
+
+ /*alinhando ao centro toda a divi container */
+
+}
+.container > div {
+ background: purple;
+ width: 50%;
+ height: 50%;
+}
+.center {
+  justify-self:center;
+  align-self: center;
+}

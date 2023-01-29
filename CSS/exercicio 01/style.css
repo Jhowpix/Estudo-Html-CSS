@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  
+}
+
+.header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* outra opcao e usar o grid column row para descer os item pelas linhas horizontais */ 
+
+}
+
+.right{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.left{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.footer{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Roboto:wght@100;300;400;500&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Roboto', sans-serif; 
+}
+
+body{
+  background: rgb(46, 46, 46);
+  max-width: auto;
+  max-height: auto;
+  min-width: 370px;
+  min-height: 800px;
+}
+
+header {
+  color: #fff;
+  letter-spacing: 0.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+header nav {
+  width: 80%;
+  max-width: 900px;
+  min-width: 370px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  margin: 30px auto;
+  background: rgb(180, 180, 180);
+  border-top: solid 3px #000;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content:space-around;
+}
+
+.liText {
+  color: rgb(46, 46, 46);
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.liText:hover{
+  transform: scale(1.4);
+  text-shadow: 0 -10px 10px #000;  
+}
+
+button {
+  background: rgb(157, 211, 255);
+  color:rgb(46, 46, 46);
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.4em;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0  0 5px rgb(157, 211, 255);
+  cursor: pointer;
+}
+
+button:hover{
+  background: rgb(203, 229, 250);
+  box-shadow: 0  0 25px rgb(186, 224, 255);
+  color: rgb(203, 229, 250);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 40px 60px 40px;
+  gap: 3px;
+  margin: 30px;
+}
+
+main .container div {
+  font-size: 20xp;
+  color: #fff;
+  text-align: center;
+  border: solid 1px #fff;
+}
+
+footer{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+footer p{
+  font-size: 14px;
+}
+
+.footer{
+  margin: 10px;
+  width: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

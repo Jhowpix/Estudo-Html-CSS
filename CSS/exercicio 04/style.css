@@ -1,0 +1,35 @@
+body{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* justify-content e aling-content nos permite
+alinhar 0 proprio grid, relativo ao espaco fora do grid*/
+
+/*podemos modificar o tamanho do coluns e row com px
+exemplo de 1fr 1fr 1fr (flex) para 40px 40px 40px (pixel)*/
+
+.container {
+ background-color: black;
+ width: 100vw;
+ height: 100vh;
+ display: grid;
+ grid-template-columns: 40px 40px 40px;
+ grid-template-rows: 40px 40px 40px;
+ gap: 5px;
+ justify-content: center;
+ align-content: center;
+
+ /*justify-content alinha na linha 
+ horizontal de cima do navegador
+ aling-content alinha na linha direira vertical 
+ do navegador*/ 
+
+}
+.container > div {
+ background: purple;
+
+}
