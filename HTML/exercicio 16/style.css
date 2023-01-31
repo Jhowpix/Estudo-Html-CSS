@@ -31,4 +31,32 @@ main{
   transform: translate(-50%, -50%);
   background: url(img/frame-iphone.png)no-repeat;
 }
+#tela{
+  position: relative;
+  top: 80px;
+  left: 21px;
+  width: 268px;
+  height: 472px;
+}
+#logos img{
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.429);
+  box-sizing: border-box;
+  transition: transform 0.2s;
+}
+section#logos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 100px;
+}
+
+
+#logos img:hover{
+  transform: translate(-3px, -3px);
+  box-shadow: 0 0 25px rgba(251, 249, 249, 0.366);
+
+}
 
