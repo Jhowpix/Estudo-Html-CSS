@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  border: 5px solid black;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 20vh 70vh 10vh;
+  grid-template-areas: "header header header"
+                        "main main aside"
+                        "footer footer footer";
+}      
+header{
+  background-color: gray;
+  grid-area: header;
+}
+
+main{
+  background-color:aqua;
+  grid-area: main;
+}
+
+aside{
+  background-color: bisque;
+  grid-area: aside;
+}
+
+footer{
+  background-color: cadetblue;
+  grid-area: footer;
+}
