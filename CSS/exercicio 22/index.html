@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>exercico22 </title>
+</head>
+<p>conhecendo comportamento do elementos</p>
+<body style="background: #b8b7b7;">
+
+
+  <!-- display block-->
+
+<p style="background: rgb(193, 112, 112);">teste</p> <!--display block-->
+<div style="background: rgb(175, 193, 112);">teste</div> <!--display block-->
+
+
+<style>
+  div{
+    background: red;
+    width: 100px;
+    height:100px;
+  }
+</style>
+<!-- o display block gera um margem em toda linha que ele esta nao deixando outros elementos ficarem alinhados a ele -->
+
+<section style="background-color: aqua;">section</section> <!--display block-->
+
+<!--display inline nunca inicia em uma nova linha-->
+
+<span>teste span</span>
+<button>buttom</button>
+<input type="text" placeholder=" input + placeholder">
+
+          <!-- o display inline nao aceita ajuste de tamanho -->
+<style> 
+  span{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+
+<!-- podemos setar os display padrao dos elementos -->
+
+<!-- podemos declarar que o span e um display block -->
+
+<style> 
+  span{
+    display: block;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+
+<!-- display: inline-block; -->
+
+<style> 
+  span{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+
+
+
+
+
+  
+</body>
+</html>
